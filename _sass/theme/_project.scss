@@ -1,0 +1,32 @@
+.project-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    padding-top: 1rem;
+}
+
+.project {
+    width: 250px;
+    height: 150px;
+    border: 1px solid $border-color;
+    border-radius: 3px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+
+    box-shadow: 0 0px 6px 0 $shadow-color;
+    
+    cursor: pointer;
+}
+
+// .image-card {
+
+// }
+
+// .tagline {
+
+// }
+
+// .description {
+
+// }
