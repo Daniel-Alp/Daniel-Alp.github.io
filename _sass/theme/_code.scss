@@ -1,46 +1,31 @@
-pre,
 code {
   font-family: $monospaced;
-}
-
-code {
-  background-color: $grey-3;
-  border-radius: 3px;
-  color: $code-color;
   font-size: 85%;
-  padding: .25em .5em;
-}
-
-pre {
-  margin: 0 0 1rem;
-}
-
-pre code {
-  background-color: transparent;
-  color: inherit;
-  font-size: 100%;
-  padding: 0;
+  font-weight: 500;
+  margin: 0 2px;
+  padding: 0 5px;
+  border: 1px solid $border-color;
+  border-radius: 3px;
+  background-color: $grey-3;
+  color: $code-color;
 }
 
 .highlight {
-  background-color: $grey-3;
-  border-radius: 3px;
-  line-height: 1.4;
   margin: 0 0 1rem;
-  padding: 1rem;
+}
 
-  pre {
-    margin-bottom: 0;
-    overflow-x: auto;
+pre {  
+  &.highlight {
+    font-size: 85%;
+    white-space: nowrap;
+    margin-bottom: 1.25em;
   }
 
-  .lineno {
-    color: $default-tint;
-    display: inline-block; // Ensures the null space also isn't selectable
-    padding: 0 .75rem 0 .25rem;
-    // Make sure numbers aren't selectable
-    -webkit-user-select: none;
-       -moz-user-select: none;
-            user-select: none;
+  > code {
+    display: block;
+    padding: 1rem 1.5rem;
+    white-space: pre;
+    width: auto;
+    overflow: auto;
   }
 }

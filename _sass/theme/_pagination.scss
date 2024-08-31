@@ -26,6 +26,8 @@
     @include transition(all .3s ease-out);
     color: $default-color;
     position: absolute;
+    font-size: 2.2rem;
+    font-weight: 400;
 
     &:hover,
     &:focus {
