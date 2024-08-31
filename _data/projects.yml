@@ -1,15 +1,19 @@
 - name: Project 1
   description: This is a cool project 
-  image_path: /assets/img/projects/project1.png
+  image: /assets/img/projects/project1.png
+  url: https://www.pexels.com/search/bird/
 
 - name: Project 2
   description: This is not a cool project. Blah blah blah blah blah.
-  image_path: /assets/img/projects/project2.png
+  image: /assets/img/projects/project2.png
+  url: https://www.pexels.com/search/bird/
 
 - name: Project 3
   description: Wow
-  image_path: /assets/img/projects/project3.png
+  image: /assets/img/projects/project3.png
+  url: https://www.pexels.com/search/bird/
 
 - name: Project 4
   description: Not wow
-  image_path: /assets/img/projects/project4.png
+  image: /assets/img/projects/project4.png
+  url: https://www.pexels.com/search/bird/
