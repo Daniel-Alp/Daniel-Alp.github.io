@@ -1,11 +1,15 @@
 - name: Project 1
   description: This is a cool project 
+  image_path: /assets/img/projects/project1.png
 
 - name: Project 2
   description: This is not a cool project
+  image_path: /assets/img/projects/project2.png
 
 - name: Project 3
   description: Wow
+  image_path: /assets/img/projects/project3.png
 
 - name: Project 4
   description: Not wow
+  image_path: /assets/img/projects/project4.png
