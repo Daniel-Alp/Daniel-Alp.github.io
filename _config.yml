@@ -3,10 +3,9 @@ description:    "Minimal Jekyll theme for storytellers"
 baseurl:        "/temp"
 url:            "" #TODO
 
-# Author
 author:
   name:         Daniel Alp
-  url:          hhttps://github.com/Daniel-Alp
+  url:          https://github.com/Daniel-Alp
   email:        dalp@uwaterloo.ca
 
 markdown:       kramdown
