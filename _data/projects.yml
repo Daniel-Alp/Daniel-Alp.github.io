@@ -3,7 +3,7 @@
   image_path: /assets/img/projects/project1.png
 
 - name: Project 2
-  description: This is not a cool project
+  description: This is not a cool project. Blah blah blah blah blah.
   image_path: /assets/img/projects/project2.png
 
 - name: Project 3

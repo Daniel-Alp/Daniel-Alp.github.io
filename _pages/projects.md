@@ -6,9 +6,9 @@ permalink: /projects
 <div class="project-grid"> 
     {% for item in site.data.projects %}
         <div class="project"> 
-            <img src="{{ item.image_path | prepend: site.baseurl }}" width="250" height="100"> 
-            <h3>{{ item.name }}</h3>
-            {{ item.description }}
+            <div class="image-card"><img src="{{ item.image_path | prepend: site.baseurl }}"/></div> 
+            <div class="project-name">{{ item.name }}</div>
+            <div class="project-description">{{ item.description }}</div>
         </div>
     {% endfor %}
 </div>

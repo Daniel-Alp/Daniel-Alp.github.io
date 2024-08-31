@@ -1,20 +1,61 @@
 .project-grid {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    
-    padding-top: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;  
+  padding-top: 1rem;
 }
 
 .project {
-    width: 250px;
-    height: 200px;
-    border: 1px solid $border-color;
-    border-radius: 3px;
-    margin: 0.5rem;
-    padding: 0.5rem;
+  width: 240px;
+  height: 200px;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  margin: 0.75rem;
+  overflow: hidden;
+  transition: 0.35s;
+  
+  box-shadow: 0 0px 6px 0 $shadow-color;
+  cursor: pointer;
+  
+  .image-card {
+    margin: -1rem, -1rem, 0rem, -1rem;
+    width: auto;
+    max-height: 50%;
+    min-height: 50%;
+    overflow: hidden;
+    transition: 0.35s;
 
-    box-shadow: 0 0px 6px 0 $shadow-color;
-    
-    cursor: pointer;
+    border-bottom: 1px solid $border-color;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .project-name {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: $default-shade;
+    font-family: $sans-serif;
+    font-size: larger;
+    font-weight: 700;
+  }
+
+  .project-description {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: $default-color;
+    font-family: $sans-serif-secondary;
+    font-size: smaller;
+    font-weight: 400; 
+  }
+}
+
+.project:hover {
+  transform: translateY(-10%);
+}
+
+.project:hover .image-card {
+  transform: translateY(-10%) scale(1.20);
 }
