@@ -3,12 +3,11 @@ layout: default
 title: "About me"
 permalink: /about
 ---
-# About me
-
 <img class="avatar" src="{{ "/assets/img/avatar.png" | prepend: site.baseurl }}">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+# About me
+Hello world, I'm Daniel!
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+I'm studying Computer Science at the University of Waterloo, and I've made this site to write about my struggles with bubble sort among other things.
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+If you'd like to get in touch, you can contact me at [dalp@uwaterloo.ca](mailto:dalp@uwaterloo.ca)
