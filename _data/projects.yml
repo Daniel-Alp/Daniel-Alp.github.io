@@ -1,19 +1,14 @@
-- name: Project 1
-  description: This is a cool project 
+- name: Foxglove & VEX
+  description: Python package bridging communication between VEX robots and Foxglove. 
   image: /assets/img/projects/project1.png
-  url: https://www.pexels.com/search/bird/
+  url: https://github.com/Daniel-Alp/foxglove-vex
 
-- name: Project 2
-  description: This is not a cool project. Blah blah blah blah blah.
+- name: Chess Engine
+  description: C++ engine supporting the Universal Chess Interface.
   image: /assets/img/projects/project2.png
-  url: https://www.pexels.com/search/bird/
+  url: https://github.com/Daniel-Alp/DAlpBlue
 
-- name: Project 3
-  description: Wow
+- name: SmardCard
+  description: Flashcard Generator powered by the Cohere LLM. Created for Hack the North '23.
   image: /assets/img/projects/project3.png
-  url: https://www.pexels.com/search/bird/
-
-- name: Project 4
-  description: Not wow
-  image: /assets/img/projects/project4.png
-  url: https://www.pexels.com/search/bird/
+  url: https://devpost.com/software/smardcard
