@@ -12,7 +12,6 @@
   border-radius: 6px;
   margin: 0.75rem;
   overflow: hidden;
-  transition: 0.35s;
   
   box-shadow: 0 0px 6px 0 $shadow-color;
   cursor: pointer;
@@ -23,11 +22,11 @@
     max-height: 50%;
     min-height: 50%;
     overflow: hidden;
-    transition: 0.35s;
 
     border-bottom: 1px solid $border-color;
 
     img {
+      transition: 0.35s;
       width: 100%;
       height: auto;
     }
@@ -40,6 +39,7 @@
     font-family: $sans-serif;
     font-size: larger;
     font-weight: 700;
+    transition: 0.35s;
   }
 
   .project-description {
@@ -53,9 +53,16 @@
 }
 
 .project:hover {
-  transform: translateY(-10%);
-}
+  transition: 0.35s;
 
-.project:hover .image-card {
-  transform: translateY(-10%) scale(1.20);
+  .image-card img {
+    transform: translateY(-10%) scale(1.20);
+  }
+
+  .project-name {
+    color: $blue;
+  }
+
+  box-shadow: 0 0px 6px 0 $blue;
+  border-color: $blue;
 }
