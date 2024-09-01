@@ -25,4 +25,4 @@ permalink:      /:year-:month-:day/:title
 
 exclude: [ Gemfile, Gemfile.lock ]
 
-disqus:         #TODO
+disqus:         dalp

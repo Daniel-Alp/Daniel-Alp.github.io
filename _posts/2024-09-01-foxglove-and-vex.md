@@ -2,6 +2,7 @@
 layout: post
 title: Leveraging Foxglove in VEX Robotics Competition
 excerpt_separator: <!--more--> 
+comments: true
 ---
 As the world’s largest high school robotics program, VRC brings students from across the globe to build and program robots for game-based challenges. Over the past three years, I’ve competed in VRC <!--more--> as [captain of one of our school’s teams](https://www.robotevents.com/teams/V5RC/82855X)—we’ve made it to the World Championship twice now, and were finalists at the [2024 Ontario provincials](https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-23-2543.html#awards). 
 
