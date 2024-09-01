@@ -1,0 +1,1 @@
+Blog generated using Jekyll. Theme adapted from [tale](https://chesterhow.github.io/tale/about/).
