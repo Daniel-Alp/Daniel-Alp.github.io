@@ -81,12 +81,21 @@ footer,
 }
 
 footer {
-  font-family: $sans-serif-secondary;
-  padding: 2rem 0;
-  text-align: center;
+  border-top: 1px solid $border-color;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  
+  .footer-links {
+    font-size: 1.5rem;
 
-  span {
-    color: $default-color;
-    font-size: .8rem;
+    i {
+      color: $default-color;
+      transition: 0.35s;
+      margin-left: 1rem;
+    }
+
+    i:hover {
+      transform: scale(1.2);
+    }
   }
 }

@@ -23,8 +23,6 @@ plugins:
 
 permalink:      /:year-:month-:day/:title
 
-paginate:       5
-
 exclude: [ Gemfile, Gemfile.lock ]
 
 disqus:         #TODO
